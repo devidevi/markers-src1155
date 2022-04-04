@@ -1,0 +1,22 @@
+{
+  "name": "Markers",
+  "version": "1.0.0",
+  "description": "Markers",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.0",
+    "fs": "0.0.1-security",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "eth-gas-reporter": "^0.2.24",
+    "truffle-plugin-verify": "^0.5.24",
+    "verify-on-etherscan": "^1.2.1"
+  }
+}

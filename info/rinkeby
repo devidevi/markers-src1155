@@ -1,0 +1,85 @@
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x51b77aba64805c83665694fc25c35eb2c2557b4f0bd2c7d9499f9136e5d28364
+   > Blocks: 0            Seconds: 12
+   > contract address:    0x3823915CFbAC0D919931155318D0AC4190bd6e5F
+   > block number:        10444541
+   > block timestamp:     1649058795
+   > account:             0xD36eb7184E168736423D11C1a4656C2cE06CD126
+   > balance:             0.615141111605361131
+   > gas used:            155222 (0x25e56)
+   > gas price:           5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00077611 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 10444542)
+   > confirmation number: 2 (block: 10444543)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00077611 ETH
+
+
+2_token_migration.js
+====================
+
+   Deploying 'Markers'
+   -------------------
+   > transaction hash:    0xa66a7b7e9758707f016ab30ffe502343d7b18005a6fd844eec2e762942fddb87
+   > Blocks: 1            Seconds: 12
+   > contract address:    0xF5ade502A9aC8AbEB83c61C53EBCf10575DEE95b
+   > block number:        10444545
+   > block timestamp:     1649058857
+   > account:             0xD36eb7184E168736423D11C1a4656C2cE06CD126
+   > balance:             0.602719986605361131
+   > gas used:            2438535 (0x253587)
+   > gas price:           5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.012192675 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 10444546)
+   > confirmation number: 2 (block: 10444547)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.012192675 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.012968785 ETH
+
+
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+Network up to date.
+Verifying Markers
+Unable to locate ContractCode at 0xF5ade502A9aC8AbEB83c61C53EBCf10575DEE95b
+Failed to verify 1 contract(s): Markers

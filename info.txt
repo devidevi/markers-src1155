@@ -1,0 +1,32 @@
+
+npx truffle migrate --network rinkeby
+npx truffle deploy --network rinkeby
+npx truffle run verify Markers --network rinkeby
+
+
+sudo chown -R $(whoami) ~/.npm
+
+определяемый пользователем каталог, в который npm будет устанавливать пакеты
+
+mkdir ~/.npm-global
+
+настроить npm
+
+npm config set prefix '~/.npm-global'
+
+добавить каталог в путь
+
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.profile
+
+обновить путь для текущего сеанса
+
+source ~/.profile
+
+перекрестная проверка модулей npm и node, успешно установленных в нашей системе
+
+node -v
+npm -v
+
+
+sudo npm install --unsafe-perm -g truffle
+npm i -g --unsafe-perm=true --allow-root truffle
